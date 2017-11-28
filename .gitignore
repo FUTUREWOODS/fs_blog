@@ -1,5 +1,6 @@
 .env
 db-data/
+web/.htpasswd
 # Created by https://www.gitignore.io/api/wordpress
 
 ### WordPress ###
