@@ -14,3 +14,9 @@ RUN openssl genrsa 2048 > server.key \
  && cp server.key /etc/nginx/server.key \
  && chmod 755 -R /var/www/html \
  && chmod 400 /etc/nginx/server.key
+
+ARG AGENT_UID=2000
+ARG AGENT_GID=2000
+RUN groupadd -g ${AGENT_GID} nginx_docker\
+&& useradd -d /home/docker -u ${AGENT_UID} -g nginx_docker nginx_docker
+&& sed -ie "s/nginx;/nginx_docker;/" /etc/nginx/nginx.conf

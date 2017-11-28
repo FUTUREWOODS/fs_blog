@@ -1,0 +1,832 @@
+# Copyright (C) 2017 Catch Themes
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Otzi Lite\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/support-forum/\n"
+"POT-Creation-Date: 2017-10-01 09:58+0545\n"
+"PO-Revision-Date: 2016-12-07 21:52-0500\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;"
+"_nx:1,2,4c;esc_html__;esc_attr_x:1,2c;_x;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:53 ../comments.php:75
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:56 ../comments.php:78
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:57 ../comments.php:79
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:78 ../inc/structure.php:90
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:79
+msgid "Social Menu"
+msgstr ""
+
+#: ../functions.php:141
+msgid "expand child menu"
+msgstr ""
+
+#: ../functions.php:142
+msgid "collapse child menu"
+msgstr ""
+
+#: ../functions.php:151
+msgid "Name"
+msgstr ""
+
+#: ../functions.php:152
+msgid "Email"
+msgstr ""
+
+#: ../functions.php:153
+msgid "URL"
+msgstr ""
+
+#: ../functions.php:154
+msgid "Comment"
+msgstr ""
+
+#: ../functions.php:215
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../functions.php:221
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../functions.php:227
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../inc/breadcrumb.php:47
+msgid "Home"
+msgstr ""
+
+#: ../inc/breadcrumb.php:48
+#, php-format
+msgid "%1$s Archive for %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:49
+#, php-format
+msgid "%1$sSearch results for: %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:50
+#, php-format
+msgid "%1$sPosts tagged %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:51
+#, php-format
+msgid "%1$sView all posts by %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:52
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/breadcrumb.php:212
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/customizer-includes/custom-controls.php:24
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/customizer-includes/custom-controls.php:36
+msgid ""
+"Hold down the Ctrl (windows) / Command (Mac) button to select multiple "
+"options."
+msgstr ""
+
+#: ../inc/customizer-includes/custom-controls.php:49
+msgid "Theme Instructions"
+msgstr ""
+
+#: ../inc/customizer-includes/custom-controls.php:53
+msgid "Support"
+msgstr ""
+
+#: ../inc/customizer-includes/custom-controls.php:57
+msgid "Changelog"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:29
+msgid "Check to disable Tagline/Site Description in header"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:43
+msgid "Check to disable Tagline/Site Description in footer"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:63
+msgid ""
+"Caution: Reset all settings to default. Refresh the page after save to view "
+"full effects."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:65
+msgid "Reset all settings"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:76
+msgid "Check to reset all settings to default"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:85
+#: ../inc/customizer-includes/customizer.php:96
+msgid "Important Links"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer.php:148
+msgid "Refresh the customizer page after saving to view reset effects"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:12
+#: ../inc/featured-content.php:46
+msgid "Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:23
+#: ../inc/customizer-includes/featured-slider.php:23
+msgid "Enable on"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:38
+msgid "Select Featured Content Layout"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:52
+msgid "Check to Move above Footer"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:66
+msgid "Check to Enable Slider"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:81
+msgid "Select Content Type"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:95
+msgid "Leave field empty if you want to remove Headline"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:96
+msgid "Headline for Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:111
+msgid "Leave field empty if you want to remove Sub-headline"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:112
+msgid "Sub-headline for Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:127
+msgid ""
+"Save and refresh the page if No. of Featured Content is changed (Max no of "
+"Featured Content is 20)"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:134
+msgid "No of Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:148
+msgid "Check to Enable Title"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:163
+msgid "Display Content"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-content.php:178
+#: ../inc/customizer-includes/featured-slider.php:90
+msgid "Featured Page"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:12
+msgid "Featured Slider"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:38
+msgid "Select Slider Type"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:52
+msgid ""
+"Save and refresh the page if No. of Slides is changed (Max no of slides is "
+"20)"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:59
+msgid "No of Slides"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:74
+msgid "Check to Disable Slider content"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:106
+msgid "Slider Layout"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:121
+msgid "Transition Effect"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:135
+#: ../inc/customizer-includes/featured-slider.php:152
+msgid "seconds(s)"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:139
+msgid "Transition Delay"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:156
+msgid "Transition Length"
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:170
+msgid ""
+"True: Fixes the height overlap issue. Slideshow will start as soon as two "
+"slider are available. Slide may display in random, as image is fetch. Wait: "
+"Fixes the height overlap issue. Slideshow will start only after all images "
+"are available."
+msgstr ""
+
+#: ../inc/customizer-includes/featured-slider.php:172
+msgid "Image Loader"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:11
+msgid "Basic theme Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:19
+msgid ""
+"Breadcrumbs are a great way of letting your visitors find out where they are "
+"on your site with just a glance. You can enable/disable them on homepage and "
+"entire site."
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:21
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:32
+msgid "Check to enable Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:45
+msgid "Check to enable Breadcrumb on Homepage"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:61
+msgid "Seperator between Breadcrumbs"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:74
+msgid "Excerpt Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:84
+msgid "Excerpt length. Default is 40 words"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:91
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:105
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:114
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:117
+msgid "Homepage / Frontpage Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:127
+msgid "Select Categories"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:141
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%1$s\">WP-PageNavi Plugin</a> is recommended for "
+"Numeric Option(But will work without it).<br/>Infinite Scroll Options "
+"requires <a target=\"_blank\" href=\"%2$s\">JetPack Plugin</a> with Infinite "
+"Scroll module Enabled."
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:161
+#, php-format
+msgid ""
+"Infinite Scroll Options requires <a target=\"_blank\" href=\"%s\">JetPack "
+"Plugin</a> with Infinite Scroll module Enabled."
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:181
+msgid "Pagination Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:192
+msgid "Pagination type"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:201
+msgid "Change default placeholder text in Search."
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:204
+msgid "Search Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:214
+msgid "Default Display Text in Search"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:225
+msgid "Scrollup Options"
+msgstr ""
+
+#: ../inc/customizer-includes/theme-options.php:235
+msgid "Check to disable Scroll Up"
+msgstr ""
+
+#: ../inc/customizer-includes/upgrade-button/class-customize.php:76
+msgid "Otzi"
+msgstr ""
+
+#: ../inc/customizer-includes/upgrade-button/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: ../inc/default-options.php:32
+msgid "Continue"
+msgstr ""
+
+#: ../inc/default-options.php:41
+msgid "Search..."
+msgstr ""
+
+#: ../inc/default-options.php:47
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: ../inc/default-options.php:47
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../inc/default-options.php:47
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: ../inc/default-options.php:94
+msgid "Default(Older Posts/Newer Posts)"
+msgstr ""
+
+#: ../inc/default-options.php:95
+msgid "Numeric"
+msgstr ""
+
+#: ../inc/default-options.php:96
+msgid "Infinite Scroll (Click)"
+msgstr ""
+
+#: ../inc/default-options.php:97
+msgid "Infinite Scroll (Scroll)"
+msgstr ""
+
+#: ../inc/default-options.php:334
+msgid "Homepage / Frontpage"
+msgstr ""
+
+#: ../inc/default-options.php:335
+msgid "Entire Site"
+msgstr ""
+
+#: ../inc/default-options.php:336
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/default-options.php:349
+msgid "Fade"
+msgstr ""
+
+#: ../inc/default-options.php:350
+msgid "Fade Out"
+msgstr ""
+
+#: ../inc/default-options.php:351
+msgid "None"
+msgstr ""
+
+#: ../inc/default-options.php:352
+msgid "Scroll Horizontal"
+msgstr ""
+
+#: ../inc/default-options.php:353
+msgid "Scroll Vertical"
+msgstr ""
+
+#: ../inc/default-options.php:354
+msgid "Flip Horizontal"
+msgstr ""
+
+#: ../inc/default-options.php:355
+msgid "Flip Vertical"
+msgstr ""
+
+#: ../inc/default-options.php:356
+msgid "Tile Slide"
+msgstr ""
+
+#: ../inc/default-options.php:357
+msgid "Tile Blind"
+msgstr ""
+
+#: ../inc/default-options.php:358
+msgid "Shuffle"
+msgstr ""
+
+#: ../inc/default-options.php:371
+msgid "True"
+msgstr ""
+
+#: ../inc/default-options.php:372
+msgid "Wait"
+msgstr ""
+
+#: ../inc/default-options.php:373
+msgid "False"
+msgstr ""
+
+#: ../inc/default-options.php:386
+msgid "Content Width"
+msgstr ""
+
+#: ../inc/default-options.php:387
+msgid "Full Width"
+msgstr ""
+
+#: ../inc/default-options.php:401
+msgid "Demo"
+msgstr ""
+
+#: ../inc/default-options.php:402 ../inc/template-tags.php:49
+msgid "Page"
+msgstr ""
+
+#: ../inc/default-options.php:415
+msgid "3 columns"
+msgstr ""
+
+#: ../inc/default-options.php:416
+msgid "4 columns"
+msgstr ""
+
+#: ../inc/default-options.php:429
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../inc/default-options.php:430
+msgid "Show Full Content"
+msgstr ""
+
+#: ../inc/default-options.php:431
+msgid "Hide Content"
+msgstr ""
+
+#: ../inc/extras.php:183
+msgid "Scroll Up"
+msgstr ""
+
+#: ../inc/extras.php:196
+msgid "Posted on"
+msgstr ""
+
+#: ../inc/extras.php:197
+msgid "By"
+msgstr ""
+
+#: ../inc/featured-content.php:47
+msgid ""
+"Here you can showcase the x number of Featured Content. You can edit this "
+"Headline, Subheadline and Feaured Content from \"Appearance -> Customize -> "
+"Featured Content Options\"."
+msgstr ""
+
+#: ../inc/structure.php:58
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/structure.php:91
+msgid "Primary menu"
+msgstr ""
+
+#: ../inc/structure.php:92
+msgid "Menu"
+msgstr ""
+
+#: ../inc/structure.php:309
+msgid "Footer Social Links Menu"
+msgstr ""
+
+#: ../inc/template-tags.php:47
+msgid "Previous page"
+msgstr ""
+
+#: ../inc/template-tags.php:48
+msgid "Next page"
+msgstr ""
+
+#: ../inc/template-tags.php:88
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:88
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:88
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:103 ../inc/template-tags.php:109
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:105
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:111
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:118 ../template-parts/content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:27 ../inc/widgets/widgets.php:27
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:38
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:47
+msgid "CT: Instagram"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:58
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:63
+msgid "Username"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:68
+msgid "Layout"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:72
+msgid "1 Column"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:73
+msgid "2 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:74
+msgid "3 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:75
+msgid "4 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:76
+msgid "5 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:77
+msgid "6 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:78
+msgid "7 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:79
+msgid "8 Columns"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:90
+msgid "Number of photos"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:95
+msgid "Instagram Image Size"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:99
+msgid "Thumbnail"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:100
+msgid "Small"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:101
+msgid "Large"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:102
+msgid "Original"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:114
+msgid "Check to Open Link in new Tab/Window"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:118
+msgid "Link text"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:215
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: ../inc/widgets/instagram.php:219
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: ../inc/widgets/instagram.php:227 ../inc/widgets/instagram.php:234
+#: ../inc/widgets/instagram.php:238
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: ../inc/widgets/instagram.php:273
+msgid "Instagram Image"
+msgstr ""
+
+#: ../inc/widgets/instagram.php:304
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: ../inc/widgets/widgets.php:17
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/widgets/widgets.php:19
+msgid "Located on the right side."
+msgstr ""
+
+#: ../inc/widgets/widgets.php:29
+msgid "Located above footer."
+msgstr ""
+
+#: ../inc/widgets/widgets.php:37
+msgid "Footer Widget 1"
+msgstr ""
+
+#: ../inc/widgets/widgets.php:39
+msgid "First widget"
+msgstr ""
+
+#: ../inc/widgets/widgets.php:47
+msgid "Footer Widget 2"
+msgstr ""
+
+#: ../inc/widgets/widgets.php:49
+msgid "Second widget."
+msgstr ""
+
+#: ../inc/widgets/widgets.php:56
+msgid "Footer Widget 3"
+msgstr ""
+
+#: ../inc/widgets/widgets.php:58
+msgid "Third widget."
+msgstr ""
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:21
+#: ../template-parts/content-single.php:30
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content.php:37
+#, php-format
+msgid "Continue %s"
+msgstr ""
