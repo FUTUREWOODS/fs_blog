@@ -17,7 +17,7 @@ add_filter( 'excerpt_more', 'graphy_change_excerpt_more' );
  * Modify the read more link text
  */
 function graphy_modify_read_more_link() {
-	return '<a class="continue-reading" href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . esc_html__( 'Continue reading &rarr;', 'graphy' ) . '</a>';
+	return '<div align="right"><a class="continue-reading" href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . esc_html__( '続きを読む &rarr;', 'graphy' ) . '</a></div>';
 }
 add_filter( 'the_content_more_link', 'graphy_modify_read_more_link' );
 

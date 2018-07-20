@@ -21,7 +21,7 @@
 		</header><!-- .entry-header -->
 		<div class="entry-summary">
 			<?php the_excerpt(); ?>
-			<p><a href="<?php the_permalink(); ?>" rel="bookmark" class="continue-reading"><?php esc_html_e( 'Continue reading &rarr;', 'graphy' ); ?></a></p>
+			<br /><p><a href="<?php the_permalink(); ?>" rel="bookmark" class="continue-reading"><?php esc_html_e( '続きを読む &rarr;', 'graphy' ); ?></a></p>
 		</div><!-- .entry-summary -->
 	</article><!-- #post-## -->
 </div><!-- .post-summary -->

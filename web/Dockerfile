@@ -1,22 +1,44 @@
 FROM nginx:1.13.5-alpine
-
-# ツールをインストール
-RUN apk --update add openssl
-
+LABEL maintainer="Makoto Inomata<inomata@futurewoods.co.jp>"
 # ルートディレクトリを作成
 RUN mkdir -p /var/www/html
 
-# 自己証明書を発行
-RUN openssl genrsa 2048 > server.key \
- && openssl req -new -key server.key -subj "/C=JP/ST=Tokyo/L=Chuo-ku/O=RMP Inc./OU=web/CN=localhost" > server.csr \
- && openssl x509 -in server.csr -days 3650 -req -signkey server.key > server.crt \
- && cp server.crt /etc/nginx/server.crt \
- && cp server.key /etc/nginx/server.key \
- && chmod 755 -R /var/www/html \
- && chmod 400 /etc/nginx/server.key
+##
+# setting necessary server configurations
+##
 
-ARG AGENT_UID=2000
-ARG AGENT_GID=2000
-RUN groupadd -g ${AGENT_GID} nginx_docker\
-&& useradd -d /home/docker -u ${AGENT_UID} -g nginx_docker nginx_docker
-&& sed -ie "s/nginx;/nginx_docker;/" /etc/nginx/nginx.conf
+# add curl and other necessary packages for openssl and certbot
+RUN apk add --update \
+                curl \
+                bash \
+                openssl \
+                certbot \
+                python \
+                py-pip \
+        && pip install --upgrade pip \
+        && pip install 'certbot-nginx' \
+        && pip install 'pyopenssl'
+
+RUN addgroup staff
+RUN addgroup www-data
+RUN adduser -h /home/dev/ -D -g "" -G staff dev
+RUN adduser -S -H -g "" -G www-data www-data
+RUN echo dev:trolls | chpasswd
+
+##
+# copying nginx configuration file
+##
+
+COPY nginx.conf /etc/nginx/nginx.conf
+RUN chown root:staff /etc/nginx/nginx.conf
+
+# adds certbot cert renewal job to cron
+COPY crontab /tmp/crontab-certbot
+RUN (crontab -l; cat /tmp/crontab-certbot) | crontab -
+
+# copies over the startup file which handles initializing the nginx
+# server and the SSL certification process (if necessary)
+COPY startup.sh /bin/startup.sh
+RUN chown root:root /bin/startup.sh
+RUN chmod ug+rx /bin/startup.sh
+RUN chmod go-w /bin/startup.sh

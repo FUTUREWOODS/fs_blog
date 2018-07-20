@@ -1,0 +1,113 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Shk Corporate\n"
+"POT-Creation-Date: 2017-06-06 17:38+0530\n"
+"PO-Revision-Date: 2017-06-06 17:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: customizer/customizer-pro.php:12
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: functions.php:40 functions.php:42
+msgid "Sidebar widget area"
+msgstr ""
+
+#: functions.php:51 functions.php:53
+msgid "Top header left area"
+msgstr ""
+
+#: functions.php:61 functions.php:63
+msgid "Top header center area"
+msgstr ""
+
+#: functions.php:71 functions.php:73
+msgid "Top header right area"
+msgstr ""
+
+#: functions.php:89
+msgid ""
+"Click the large blue button to start the dummy data import process.</br></"
+"br>Please be patient while WordPress imports all the content.</br></br>\n"
+"\t\t\t<h3>Recommended Plugins</h3>Shk Corporate theme supports the following "
+"plugins:</br> </br><li> <a href=\"https://wordpress.org/plugins/contact-"
+"form-7/\"> Contact form 7</a> </l1> </br></br> <li> <a href=\"https://"
+"wordpress.org/plugins/bootstrap-3-shortcodes/\"> Bootstrap Shortcodes</a> </"
+"l1>"
+msgstr ""
+
+#: header-widget.php:14
+msgid "WBR : Header Widget"
+msgstr ""
+
+#: header-widget.php:76 header-widget.php:101
+msgid "Make a reservation: 1-800-123-4567"
+msgstr ""
+
+#: header-widget.php:96
+msgid "FontAwesome icon"
+msgstr ""
+
+#: header-widget.php:98
+msgid "Find all icons"
+msgstr ""
+
+#: header-widget.php:98
+msgid "here"
+msgstr ""
+
+#: header-widget.php:100
+msgid "Description"
+msgstr ""
+
+#: header-widget.php:103
+msgid "Link"
+msgstr ""
+
+#: header-widget.php:106
+msgid "Open link in new tab"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Shk Corporate"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://webriti.com/shk-corporate-child-version-details-page/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A Business theme which is ideal for creating a corporate or any other type "
+"of business website. SHK Corporate theme is a child theme of the Appointment "
+"WordPress theme. The theme uses the blue color variation that WordPress uses "
+"as default. You will find 3 separate header sidebars, which will be placed "
+"just above the menu section. The top header section is very useful when it "
+"comes to adding social media links, email IDs, contact information and any "
+"other important information that you want to share. All you need to do is "
+"add a few widgets and you are good to go."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "webriti"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.webriti.com"
+msgstr ""
